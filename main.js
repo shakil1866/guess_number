@@ -1,9 +1,15 @@
 
+ location.reload =   output.innerText= "Guess number between 1 to 100";  
+
 let todo = () =>{     
+
     // Get the current input value
 let input = document.getElementById("inputField")
 let btn = document.getElementById("btn")
 let output = document.getElementById("output") 
+
+
+
 let num = 45
    
     if (input.value == "" ) {
